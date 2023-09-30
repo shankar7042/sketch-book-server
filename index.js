@@ -7,7 +7,7 @@ const app = express();
 const isDev = app.settings.env === "development";
 const URL = isDev
   ? "http://localhost:5173"
-  : "https://sketch-book-r1ln6d9gk-shankar7042.vercel.app";
+  : "https://sketch-book-en6mqep8z-shankar7042.vercel.app";
 
 app.use(cors({ origin: URL }));
 
